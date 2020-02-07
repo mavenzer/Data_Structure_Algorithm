@@ -2,5 +2,7 @@
 
 ### Futher plans includes 
       Connected Components in Graph
+      Cycle Detection in Graph
+      
       
 ## Anyone can commit to  this repository. 
