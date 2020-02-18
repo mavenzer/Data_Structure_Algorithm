@@ -52,6 +52,11 @@ void deleteAtAnyPosition(int j)
 {
 
     Node* temp5 = head;
+    if(j==1)
+    {
+        head = temp5->next;
+        return;
+    }
     //go to the j-1, node;
     for (int i = 0; i < j - 2; i++)
         temp5 = temp5->next;
